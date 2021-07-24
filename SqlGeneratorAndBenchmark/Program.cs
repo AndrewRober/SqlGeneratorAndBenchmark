@@ -103,7 +103,7 @@ namespace SqlGeneratorAndBenchmark
                     new() {ChildObjName = c2},
                     new() {ChildObjName = c3}
                 }
-            });
+            }); 
             context.SaveChanges();
         }
 
